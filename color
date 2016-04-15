@@ -1,0 +1,7 @@
+{
+  "name": "color",
+  "description": "A small zsh script for colorising strings",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/color",
+  "bin": {"color.zsh": "color", "another": "test"}
+}
