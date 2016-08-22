@@ -1,0 +1,7 @@
+{
+  "name": "z-cd",
+  "description": "A wrapper around the cd builtin which searches directory history using z",
+  "repository": "https://github.com/zulu-zsh/plugin-z-cd",
+  "author": "James Dinsdale <hi@molovo.co>",
+  "init": {"z-cd.zsh": "z-cd"}
+}
