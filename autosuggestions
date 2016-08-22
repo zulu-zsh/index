@@ -1,0 +1,7 @@
+{
+  "name": "autosuggestions",
+  "description": "Fish-like autosuggestions for zsh",
+  "repository": "https://github.com/zsh-users/zsh-autosuggestions",
+  "author": "zsh-users <https://github.com/zsh-users",
+  "init": {"zsh-autosuggestions.zsh": "zsh-autosuggestions.zsh"}
+}

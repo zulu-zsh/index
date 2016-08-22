@@ -1,0 +1,7 @@
+{
+  "name": "history-substring-search",
+  "description": "ZSH port of Fish shell's history search feature.",
+  "repository": "https://github.com/zsh-users/zsh-history-substring-search",
+  "author": "ZSH Users <https://github.com/zsh-users>",
+  "init": {"zsh-history-substring-search.zsh": "zsh-history-substring-search.zsh"}
+}

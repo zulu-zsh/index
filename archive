@@ -1,0 +1,8 @@
+{
+  "name": "archive",
+  "description": "Provides functions to list and extract archives.",
+  "repository": "https://github.com/zulu-zsh/plugin-archive",
+  "author": "Sorin Ionescu <https://github.com/sorin-ionescu>",
+  "bin": {"functions/lsarchive": "lsarchive", "functions/unarchive": "unarchive"},
+  "share": {"functions/_lsarchive": "_lsarchive", "functions/_unarchive": "_unarchive"}
+}

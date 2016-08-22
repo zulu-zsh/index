@@ -1,0 +1,7 @@
+{
+  "name": "command-not-found",
+  "description": "Displays installation information for not found commands by loading the command-not-found tool.",
+  "repository": "https://github.com/zulu-zsh/plugin-command-not-found",
+  "author": "Joseph Booker <https://github.com/sargas>",
+  "init": {"command-not-found.zsh": "command-not-found.zsh"}
+}

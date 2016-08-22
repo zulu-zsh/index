@@ -1,0 +1,7 @@
+{
+  "name": "fasd",
+  "description": "Command-line productivity booster, offers quick access to files and directories.",
+  "repository": "https://github.com/clvv/fasd",
+  "author": "Wei Dai <http://wdai.us/>",
+  "bin": {"fasd": "fasd"}
+}
