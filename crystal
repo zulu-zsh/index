@@ -1,0 +1,8 @@
+{
+  "name": "crystal",
+  "description": "Plugin for crystal",
+  "repository": "https://github.com/veelenga/crystal-zsh",
+  "author": "Vitalii Elenhaupt <http://veelenga.com>",
+  "type": "plugin",
+  "init": {"crystal.plugin.zsh": "crystal"}
+}
