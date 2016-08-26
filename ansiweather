@@ -1,0 +1,8 @@
+{
+  "name": "ansiweather",
+  "description": "Weather in your terminal, with ANSI colors and Unicode symbols",
+  "repository": "https://github.com/fcambus/ansiweather",
+  "author": "Frederic Cambus <http://www.cambus.net>",
+  "type": "script",
+  "bin": {"ansiweather": "ansiweather"}
+}
