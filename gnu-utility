@@ -3,5 +3,6 @@
   "description": "Provides for the interactive use of GNU utilities on BSD systems.",
   "repository": "https://github.com/zulu-zsh/plugin-gnu-utility",
   "author": "Sorin Ionescu <https://github.com/sorin-ionescu>",
+  "type": "plugin",
   "init": {"init.zsh": "gnu-utility.zsh"}
 }

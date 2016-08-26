@@ -3,5 +3,6 @@
   "description": "A selection of handy git aliases",
   "repository": "https://github.com/zulu-zsh/plugin-git",
   "author": "James Dinsdale <https://molovo.co>",
+  "type": "plugin",
   "init": {"git.zsh": "git.zsh"}
 }

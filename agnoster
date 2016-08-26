@@ -3,5 +3,6 @@
   "description": "A ZSH prompt theme with powerlines",
   "repository": "https://github.com/agnoster/agnoster-zsh-theme",
   "author": "Isaac Wolkerstorfer <http://agnoster.net/>",
+  "type": "theme",
   "share": {"agnoster.zsh-theme": "prompt_agnoster_setup"}
 }

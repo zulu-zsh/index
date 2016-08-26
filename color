@@ -3,5 +3,6 @@
   "description": "A small zsh script for colorising strings",
   "author": "James Dinsdale <https://github.com/molovo>",
   "repository": "https://github.com/molovo/color",
+  "type": "script",
   "bin": {"color.zsh": "color"}
 }

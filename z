@@ -3,5 +3,6 @@
   "description": "Tracks your most used directories, based on 'frecency'.",
   "repository": "https://github.com/rupa/z",
   "author": "rupa <http://un.ix.io>",
+  "type": "script",
   "init": {"z.sh": "z"}
 }

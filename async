@@ -2,6 +2,7 @@
   "name": "async",
   "description": "Because your terminal should be able to perform tasks asynchronously without external tools!",
   "repository": "https://github.com/mafredri/zsh-async",
+  "type": "plugin",
   "author": "Mathias Fredriksson <https://twitter.com/mafredri>",
   "share": {"async.zsh": "async"}
 }

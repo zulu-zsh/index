@@ -3,5 +3,6 @@
   "description": "Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s",
   "repository": "https://github.com/sindresorhus/pretty-time-zsh",
   "author": "Sindre Sorhus <https://twitter.com/sindresorhus>",
+  "type": "script",
   "bin": {"pretty-time.zsh": "pretty-time"}
 }

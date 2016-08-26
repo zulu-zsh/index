@@ -3,5 +3,6 @@
   "description": "A disgustingly clean ZSH prompt theme",
   "author": "James Dinsdale <https://github.com/molovo>",
   "repository": "https://github.com/molovo/filthy",
+  "type": "theme",
   "share": {"filthy.zsh": "prompt_filthy_setup"}
 }

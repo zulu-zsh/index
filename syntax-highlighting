@@ -3,5 +3,6 @@
   "description": "Fish shell like syntax highlighting for Zsh",
   "repository": "https://github.com/zsh-users/zsh-syntax-highlighting",
   "author": "zsh-users <https://github.com/zsh-users",
+  "type": "plugin",
   "init": {"zsh-syntax-highlighting.zsh": "zsh-syntax-highlighting.zsh"}
 }

@@ -3,5 +3,6 @@
   "description": "Defines dnf aliases.",
   "repository": "https://github.com/zulu-zsh/plugin-dnf",
   "author": "Sorin Ionescu <https://github.com/sorin-ionescu>",
+  "type": "plugin",
   "init": {"dnf.zsh": "dnf.zsh"}
 }
