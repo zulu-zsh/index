@@ -1,0 +1,8 @@
+{
+  "name": "cdbk",
+  "description": "A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want",
+  "repository": "https://github.com/MikeDacre/cdbk",
+  "author": "Mike Dacre <https://github.com/MikeDacre>",
+  "type": "plugin",
+  "init": {"cdbk.plugin.zsh": "cdbk"}
+}
