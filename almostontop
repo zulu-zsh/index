@@ -1,0 +1,8 @@
+{
+  "name": "almostontop",
+  "description": "Clears previous command output every time before new command executed in shell",
+  "repository": "https://github.com/Valiev/almostontop",
+  "author": "Sergey Valiev <https://github.com/Valiev>",
+  "type": "plugin",
+  "init": {"almostontop.plugin.zsh": "almostontop"}
+}
