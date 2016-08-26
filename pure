@@ -1,0 +1,9 @@
+{
+  "name": "pure",
+  "description": "Pretty, minimal and fast ZSH prompt",
+  "author": "Sindre Sorhus <https://github.com/sindresorhus>",
+  "repository": "https://github.com/sindresorhus/pure",
+  "type": "theme",
+  "dependencies": "async"
+  "share": {"pure.zsh": "prompt_pure_setup"}
+}
