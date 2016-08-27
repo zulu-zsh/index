@@ -1,0 +1,8 @@
+{
+  "name": "gitio",
+  "description": "A zsh plugin for generating a GitHub short URL using git.io",
+  "repository": "https://github.com/denysdovhan/gitio-zsh",
+  "author": "Denys Dovhan <http://www.denysdovhan.com>",
+  "type": "plugin",
+  "init": {"gitio.zsh": "gitio"}
+}
