@@ -1,0 +1,8 @@
+{
+  "name": "gitignore",
+  "description": "ZSH plugin for creating .gitignore files",
+  "repository": "https://github.com/voronkovich/gitignore.plugin.zsh",
+  "author": "Oleg Voronkovich <http://popartdesign.ru>",
+  "type": "plugin",
+  "init": {"gitignore.plugin.zsh": "gitignore.plugin.zsh"}
+}
