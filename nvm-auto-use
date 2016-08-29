@@ -1,0 +1,8 @@
+{
+  "name": "nvm-auto-use",
+  "description": "ZSH plugin to call `nvm use` automatically when you enter a directory that contains an `.nvmrc` file",
+  "repository": "https://github.com/tomsquest/nvm-auto-use.zsh",
+  "author": "Thomas Queste <http://www.tomsquest.com>",
+  "type": "plugin",
+  "init": {"nvm-auto-use.zsh": "nvm-auto-use"}
+}
