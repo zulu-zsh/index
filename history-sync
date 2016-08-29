@@ -1,0 +1,8 @@
+{
+  "name": "history-sync",
+  "description": "plugin for synced zsh_history; with encryption",
+  "repository": "https://github.com/wulfgarpro/history-sync",
+  "author": "James Fraser <http://wulfgarpro.github.io/>",
+  "type": "plugin",
+  "init": {"history-sync.plugin.zsh": "history-sync"}
+}
