@@ -1,0 +1,8 @@
+{
+  "name": "lumberjack",
+  "description": "A logging interface for shell scripts",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/lumberjack",
+  "type": "script",
+  "bin": {"lj": "lj"}
+}
