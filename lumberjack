@@ -5,4 +5,5 @@
   "repository": "https://github.com/molovo/lumberjack",
   "type": "script",
   "bin": {"lj": "lj"}
+  "share": {"lj.zsh-completion": "_lj"}
 }
