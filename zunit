@@ -1,0 +1,9 @@
+{
+  "name": "zunit",
+  "description": "A unit testing framework for ZSH",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/zunit",
+  "type": "script",
+  "postinstall": "make",
+  "bin": {"zunit": "zunit"}
+}
