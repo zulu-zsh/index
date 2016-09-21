@@ -1,0 +1,8 @@
+{
+  "name": "load-graph",
+  "description": "Outputs the current 1-minute load average as a percentage, and a spark line graph of the 1, 5 and 15 minute averages.",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/load-graph",
+  "type": "script",
+  "bin": {"load-graph": "load-graph"}
+}
