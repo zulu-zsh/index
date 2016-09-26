@@ -4,5 +4,5 @@
   "author": "James Dinsdale <https://github.com/molovo>",
   "repository": "https://github.com/molovo/zunit",
   "type": "script",
-  "bin": {"src/zunit": "zunit"}
+  "bin": {"zunit": "zunit"}
 }
