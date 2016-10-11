@@ -1,0 +1,8 @@
+{
+  "name": "tipz",
+  "description": "A small ZSH plugin to help you remember your aliases",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/tipz",
+  "type": "plugin",
+  "init": {"tipz.zsh": "tipz"}
+}
