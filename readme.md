@@ -12,7 +12,7 @@ Comments should *not* be included in any submissions.
 
 > **NOTE:** Zulu uses a very simple JSON parses, which has one big limitation, in that nested objects or arrays within the JSON object **must not** contain any newlines. Follow the formatting below and you should be fine.
 
-``json
+```json
 {
   "name": "my-awesome-package",
   "description": "A short description of the package",
