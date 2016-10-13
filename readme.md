@@ -10,6 +10,8 @@ of the package.
 Below is an example JSON file with comments added for explanatory purposes.
 Comments should *not* be included in any submissions.
 
+> **NOTE:** Zulu uses a very simple JSON parses, which has one big limitation, in that nested objects or arrays within the JSON object **must not** contain any newlines. Follow the formatting below and you should be fine.
+
 ``json
 {
   "name": "my-awesome-package",
@@ -19,6 +21,10 @@ Comments should *not* be included in any submissions.
 
   // (optional) Can be one of 'script', 'plugin' or 'theme'
   "type": "script",
+
+  // (optional) A list of packages this package depends on, and which
+  // will be installed at the same time
+  "dependencies": ["a-package", "another-package"],
 
   // (optional) An object containing files in the repository, and the name
   // of a symlink that will be created and placed in $PATH
