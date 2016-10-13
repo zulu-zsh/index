@@ -4,6 +4,6 @@
   "author": "Sindre Sorhus <https://github.com/sindresorhus>",
   "repository": "https://github.com/sindresorhus/pure",
   "type": "theme",
-  "dependencies": "async"
+  "dependencies": ["async"],
   "share": {"pure.zsh": "prompt_pure_setup"}
 }
