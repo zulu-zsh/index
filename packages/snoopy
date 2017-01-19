@@ -1,0 +1,9 @@
+{
+  "name": "snoopy",
+  "description": "A Zsh theme inspired by ZiM framework's `eriner` theme",
+  "author": "Petros <https://github.com/rolling-space>",
+  "repository": "https://github.com/rolling-space/snoopy-theme",
+  "type": "theme",
+  "share": {"snoopy.zsh-theme": "prompt_snoopy_setup"},
+  "init": {"zshrc.sh": "snoopy.zsh"}
+}
