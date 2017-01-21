@@ -1,0 +1,8 @@
+{
+  "name": "osx",
+  "description": "macOS related functions",
+  "author": "rolling-space <https://github.com/rolling-space",
+  "repository": "https://github.com/rolling-space/zulu-osx.git",
+  "type": "plugin",
+  "init": {"osx.plugin.zsh": "zulu-osx"}
+}
