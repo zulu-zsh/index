@@ -1,0 +1,8 @@
+{
+  "name": "homebrew",
+  "description": "Aliases and functions for homebrew",
+  "author": "rolling-space <https://github.com/rolling-space",
+  "repository": "https://github.com/rolling-space/zulu-homebrew.git",
+  "type": "plugin",
+  "init": {"init.zsh": "zulu-homebrew"}
+}
