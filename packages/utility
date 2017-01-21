@@ -1,0 +1,8 @@
+{
+  "name": "utility",
+  "description": "Helper functions and aliases",
+  "author": "rolling-space <https://github.com/rolling-space",
+  "repository": "https://github.com/rolling-space/zulu-utility.git",
+  "type": "plugin",
+  "init": {"init.zsh": "zulu-utility"}
+}
