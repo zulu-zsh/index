@@ -4,5 +4,6 @@
   "repository": "https://github.com/zulu-zsh/plugin-git",
   "author": "James Dinsdale <https://molovo.co>",
   "type": "plugin",
-  "init": {"git.zsh": "git.zsh"}
+  "init": {"git.zsh": "git.zsh"},
+  "bin": {"functions/git-branch-current": "git-branch-current", "functions/git-commit-lost": "git-commit-lost", "functions/git-dir": "git-dir", "functions/git-ignore-add": "git-ignore-add", "functions/git-root": "git-root", "functions/git-stash-clear-interactive": "git-stash-clear-interactive", "functions/git-stash-dropped": "git-stash-dropped", "functions/git-stash-recover": "git-stash-recover", "functions/git-submodule-move": "git-submodule-move", "functions/git-submodule-remove": "git-submodule-remove", "functions/git_current_branch": "git_current_branch", "functions/git_prompt_info": "git_prompt_info", "functions/is-true": "is-true", "functions/parse_git_dirty": "parse_git_dirty"}
 }

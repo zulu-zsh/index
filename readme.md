@@ -28,11 +28,11 @@ Comments should *not* be included in any submissions.
 
   // (optional) An object containing files in the repository, and the name
   // of a symlink that will be created and placed in $PATH
-  "bin": {"path/to/executable": "command-name"}
+  "bin": {"path/to/executable": "command-name"},
 
   // (optional) An object containing files in the repository, and the name
   // of a symlink that will be created and placed in $fpath
-  "share": {"path/to/script": "module-name"}
+  "share": {"path/to/script": "module-name"},
 
   // (optional) An object containing files in the repository, and the name
   // of a symlink that will be created and sourced on shell startup
