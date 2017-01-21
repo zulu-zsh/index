@@ -1,0 +1,9 @@
+{
+  "name": "zulu-node",
+  "description": "Aliases and functions for node",
+  "author": "rolling-space <https://github.com/rolling-space",
+  "repository": "https://github.com/rolling-space/zulu-node.git",
+  "type": "plugin",
+  "bin": {"functions/node-info": "node-info"}
+  "init": {"init.zsh": "zulu-node"}
+}
