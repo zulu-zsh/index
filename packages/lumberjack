@@ -4,6 +4,6 @@
   "author": "James Dinsdale <https://github.com/molovo>",
   "repository": "https://github.com/molovo/lumberjack",
   "type": "script",
-  "bin": {"lj": "lj"}
+  "bin": {"lj": "lj"},
   "share": {"lj.zsh-completion": "_lj"}
 }

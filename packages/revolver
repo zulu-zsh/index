@@ -4,6 +4,6 @@
   "author": "James Dinsdale <https://github.com/molovo>",
   "repository": "https://github.com/molovo/revolver",
   "type": "script",
-  "bin": {"revolver": "revolver"}
+  "bin": {"revolver": "revolver"},
   "share": {"revolver.zsh-completion": "_revolver"}
 }
