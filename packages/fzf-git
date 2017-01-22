@@ -1,5 +1,5 @@
 {
-  "name": "fzf",
+  "name": "fzf-git",
   "description": "A plugin which sets up git keybindings for fzf",
   "repository": "https://github.com/zulu-zsh/plugin-fzf-git",
   "author": "James Dinsdale <https://molovo.co>",
