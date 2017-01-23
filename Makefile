@@ -4,7 +4,7 @@ build:
 publish:
 	git fetch origin
 	git checkout gh-pages
-	git reset --hard master
+	git reset --hard $${TRAVIS_COMMIT:-'master'}
 	make build
 	git add index.json
 	git commit -m 'Update JSON index'
