@@ -1,5 +1,5 @@
 {
-  "name": "filthy",
+  "name": "insert-sudo",
   "description": "A little zsh snippet to prepend sudo to the current command",
   "author": "James Dinsdale <https://github.com/molovo>",
   "repository": "https://github.com/molovo/insert-sudo",
