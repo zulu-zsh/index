@@ -1,0 +1,8 @@
+{
+  "name": "transfer",
+  "description": "A simple script to upload files to transfer.sh",
+  "author": "Remco Verhoef <https://transfer.sh>",
+  "repository": "https://github.com/zulu-zsh/plugin-transfer",
+  "type": "script",
+  "share": {"transfer": "transfer"}
+}
