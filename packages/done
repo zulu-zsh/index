@@ -1,0 +1,8 @@
+{
+  "name": "done",
+  "description": "Sends a notification when a long running command completes",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/done",
+  "type": "plugin",
+  "init": {"done.zsh": "done.zsh"}
+}
