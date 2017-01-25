@@ -1,0 +1,8 @@
+{
+  "name": "fzf-z",
+  "description": "Plugin for zsh to integrate fzf and zsh's z plugin - enables easy switching between recent dirs in zsh",
+  "repository": "https://github.com/andrewferrier/fzf-z",
+  "author": "Andrew Ferrier <https://github.com/andrewferrier>",
+  "type": "plugin",
+  "init": {"fzf-z.plugin.zsh": "fzf-z"}
+}
