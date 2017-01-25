@@ -1,0 +1,8 @@
+{
+  "name": "zsh-editing-workbench",
+  "description": "Incremental history word completion",
+  "repository": "https://github.com/psprint/zsh-editing-workbench",
+  "author": "PSPrint",
+  "type": "plugin",
+  "init": {"zsh-editing-workbench.plugin.zsh": "zsh-editing-workbench"}
+}
