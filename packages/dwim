@@ -1,0 +1,8 @@
+{
+  "name": "dwim",
+  "description": "A ZSH plugin that attempts to predict what you will want to do next.",
+  "repository": "https://github.com/oknowton/zsh-dwim",
+  "author": "Pat Regan <http://blog.patshead.com>",
+  "type": "plugin",
+  "init": {"init.zsh": "zsh-dwim"}
+}
