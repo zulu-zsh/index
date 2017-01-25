@@ -1,0 +1,8 @@
+{
+  "name": "safe-paste",
+  "description": "Zsh safe-paste plugin for antigen. See http://cirw.in/blog/bracketed-paste",
+  "repository": "https://github.com/oz/safe-paste",
+  "author": "Arnaud Berthomier <https://github.com/oz>",
+  "type": "plugin",
+  "init": {"safe-paste.plugin.zsh": "safe-paste"}
+}
