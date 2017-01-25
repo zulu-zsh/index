@@ -1,0 +1,8 @@
+{
+  "name": "autopair",
+  "description": "A simple plugin that auto-closes, deletes and skips over matching delimiters in zsh intelligently.",
+  "repository": "https://github.com/hlissner/zsh-autopair",
+  "author": "Henrik Lissner <http://henrik.io>",
+  "type": "plugin",
+  "init": {"autopair.zsh": "autopair"}
+}
