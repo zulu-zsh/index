@@ -1,0 +1,8 @@
+{
+  "name": "zsh-hints",
+  "description": "Easily display non-completable trivia right under your editing buffer",
+  "repository": "https://github.com/joepvd/zsh-hints",
+  "author": "Joep van Delft <http://joepvd.github.io>",
+  "type": "plugin",
+  "share": {"zsh-hints": "zsh-hints"}
+}

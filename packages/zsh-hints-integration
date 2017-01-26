@@ -1,0 +1,9 @@
+{
+  "name": "zsh-hints-integration",
+  "description": "Integration which sets up key bindings for the zsh-hints plugin",
+  "repository": "https://github.com/zulu-zsh/plugin-zsh-hints",
+  "author": "James Dinsdale <https://molovo.co>",
+  "dependencies": ["zsh-hints"],
+  "type": "plugin",
+  "init": {"zsh-hints-integration.plugin.zsh": "zsh-hints-integration"}
+}
