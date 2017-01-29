@@ -1,8 +1,8 @@
 {
   "name": "powerlevel9k",
   "description": "The most awesome Powerline theme for ZSH around!",
-  "author": "Mathias Fredriksson <https://github.com/mafredri>",
-  "repository": "https://github.com/mafredri/powerlevel9k",
+  "author": "Ben Hilburn <https://github.com/bhilburn>",
+  "repository": "https://github.com/bhilburn/powerlevel9k",
   "type": "theme",
   "share": {"powerlevel9k.zsh-theme": "prompt_powerlevel9k_setup"}
 }
