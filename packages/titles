@@ -1,0 +1,8 @@
+{
+  "name": "titles",
+  "description": "Terminal/tmux titles based on current location and task",
+  "repository": "https://github.com/jreese/zsh-titles",
+  "author": "John Reese <https://noswap.com>",
+  "type": "plugin",
+  "init": {"titles.plugin.zsh": "titles"}
+}
