@@ -1,0 +1,8 @@
+{
+  "name": "alien-minimal",
+  "description": "A minimal zsh theme",
+  "author": "Indrajit <https://eendroroy.github.io>",
+  "repository": "https://github.com/eendroroy/alien-minimal",
+  "type": "theme",
+  "share": {"alien-minimal.zsh": "prompt_alien-minimal_setup"}
+}
