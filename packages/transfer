@@ -4,5 +4,5 @@
   "author": "Remco Verhoef <https://transfer.sh>",
   "repository": "https://github.com/zulu-zsh/plugin-transfer",
   "type": "script",
-  "share": {"transfer": "transfer"}
+  "bin": {"transfer": "transfer"}
 }
