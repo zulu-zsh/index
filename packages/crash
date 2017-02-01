@@ -1,0 +1,8 @@
+{
+  "name": "crash",
+  "description": "Proper error handling, exceptions and try/catch for ZSH",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/crash",
+  "type": "plugin",
+  "share": {"crash": "crash"}
+}
