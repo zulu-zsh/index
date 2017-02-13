@@ -5,5 +5,6 @@
   "repository": "https://github.com/molovo/zunit",
   "type": "script",
   "bin": {"zunit": "zunit"},
+  "share": {"zunit.zsh-completion": "_zunit"},
   "dependencies": ["color", "revolver"]
 }
