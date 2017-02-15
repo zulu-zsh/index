@@ -1,6 +1,6 @@
 {
   "name": "rbenv",
-  "description": "ruby/rails aliases; rbenv init",
+  "description": "ruby/rails/rbenv aliases",
   "author": "rolling-space <https://github.com/rolling-space",
   "repository": "https://github.com/rolling-space/zulu-rbenv.git",
   "type": "plugin",
