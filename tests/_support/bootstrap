@@ -1,0 +1,64 @@
+#!/usr/bin/env zsh
+
+# Set Zulu directories
+export ZULU_DIR="$PWD/tests/_support/.zulu"
+export ZULU_CONFIG_DIR="$PWD/tests/_support/.config/zulu"
+export ZULU_INSTALL_SCRIPT="$PWD/tests/_support/zulu-install.zsh"
+
+# Check if Zulu is already installed in the support directory
+if [[ ! -d "$ZULU_DIR" ]]; then
+  # Check if the Zulu install script has already been downloaded
+  if [[ ! -f "$ZULU_INSTALL_SCRIPT" ]]; then
+    curl -L https://zulu.sh/install > $ZULU_INSTALL_SCRIPT
+  fi
+
+  # Source the Zulu install script
+  source "$PWD/tests/_support/zulu-install.zsh"
+fi
+
+# If the index directory is still present, remove it and
+# create a symlink to the current directory so that Zulu
+# uses the index we are testing
+if [[ ! -L "$ZULU_DIR/index" ]]; then
+  if [[ -d "$ZULU_DIR/index" ]]; then
+    rm -rf "$ZULU_DIR/index"
+  fi
+
+  ln -s "$PWD" "$ZULU_DIR/index"
+fi
+
+# Create a list of the files in the packages directory
+oldIFS=$IFS
+IFS=$'\n'
+local -a packages; packages=($(ls "$PWD/packages"))
+IFS=$oldIFS
+
+# Create the directory for generated tests if it does not exist
+if [[ ! -d "$PWD/tests/packages" ]]; then
+  mkdir -p "$PWD/tests/packages"
+fi
+
+# Generate test files for packages if they don't already exist
+for package in ${packages[@]}; do
+  if [[ ! -f "$PWD/tests/packages/$package.zunit" ]]; then
+    echo "#!/usr/bin/env zunit
+
+@test 'Test $package installation' {
+  run zulu install --no-autoselect-themes --ignore-dependencies $package
+
+  assert \$state equals 0
+  assert \"\$PWD/tests/_support/.zulu/packages/$package\" is_dir
+}
+
+@test 'Test $package uninstallation' {
+  run zulu uninstall $package
+
+  assert \$state equals 0
+}" > "$PWD/tests/packages/$package.zunit"
+    echo "Generated new test file for $package"
+  fi
+done
+
+# Source the embedded Zulu installation
+source "$ZULU_DIR/core/zulu"
+zulu init

@@ -1,6 +1,9 @@
 build:
 	zsh ./build.zsh
 
+test:
+	zunit
+
 publish:
 	git fetch origin
 	git checkout gh-pages
