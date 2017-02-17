@@ -1,0 +1,10 @@
+{
+  "name": "zvm",
+  "description": "The ZSH version manager",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/zvm",
+  "type": "script",
+  "bin": {"zvm": "zvm"},
+  "init": {"zvm-shell-integration.zsh": "zvm-shell-integration.zsh"},
+  "dependencies": ["color", "revolver"]
+}
