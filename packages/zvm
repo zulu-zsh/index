@@ -6,5 +6,6 @@
   "type": "script",
   "bin": {"zvm": "zvm"},
   "init": {"zvm-shell-integration.zsh": "zvm-shell-integration.zsh"},
+  "share": {"zvm.zsh-completion": "_zvm"},
   "dependencies": ["color", "revolver"]
 }
