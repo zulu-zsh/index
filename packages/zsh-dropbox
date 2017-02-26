@@ -1,0 +1,6 @@
+{
+  "name": "zsh-dropbox",
+  "description": "This plugin provides 2 apps: dropbox-cli and dropbox-uploader and completions for them.",
+  "repository": "https://github.com/zpm-zsh/zsh-dropbox",
+  "author": "Grigorii Horos"
+}
