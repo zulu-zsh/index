@@ -1,0 +1,8 @@
+{
+  "name": "zsh-bd",
+  "description": "Quickly go back to a specific parent directory instead of typing cd ../../.. redundantly",
+  "repository": "https://github.com/Tarrasch/zsh-bd",
+  "author": "Arash Rouhani",
+  "type": "script",
+  "init": {"bd.zsh": "bd"}
+}
