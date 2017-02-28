@@ -6,5 +6,6 @@
   "type": "script",
   "bin": {"zunit": "zunit"},
   "share": {"zunit.zsh-completion": "_zunit"},
-  "dependencies": ["color", "revolver"]
+  "dependencies": ["color", "revolver"],
+  "post_install": "./build.zsh"
 }
