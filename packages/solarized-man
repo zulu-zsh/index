@@ -1,0 +1,8 @@
+{
+  "name": "solarized-man",
+  "description": "A modified version of oh-my-zsh's plugin colored-man-pages, optimized for solarized dark theme in terminal",
+  "repository": "https://github.com/zlsun/solarized-man",
+  "author": "zlsun",
+  "type": "script",
+  "init": {"solarized-man.plugin.zsh": "solarized-man"}
+}
