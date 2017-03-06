@@ -1,5 +1,5 @@
 {
-  "name": "grc",
+  "name": "warhol",
   "description": "Colorize command output using grc and lscolors.",
   "repository": "https://github.com/unixorn/warhol.plugin.zsh",
   "author": "Joe Block <https://github.com/unixorn>",
