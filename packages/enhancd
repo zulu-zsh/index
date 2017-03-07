@@ -1,0 +1,8 @@
+{
+  "name": "enhancd",
+  "description": "A next-generation cd command with an interactive filter",
+  "repository": "https://github.com/b4b4r07/enhancd",
+  "author": "BABAROT <b4b4r07@gmail.com>",
+  "type": "script",
+  "init": {"init.sh": "enhancd"}
+}
