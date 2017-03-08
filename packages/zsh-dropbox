@@ -4,7 +4,7 @@
   "repository": "https://github.com/zpm-zsh/zsh-dropbox",
   "author": "Grigorii Horos",
   "init": {"dropbox.plugin.zsh": "zsh-dropbox"},
-  "bin": {"bin/dropbox-cli": "dropbox-cli","bin/dropbox_uploader": "dropbox_uploader"}
+  "bin": {"bin/dropbox-cli": "dropbox-cli","bin/dropbox_uploader": "dropbox_uploader"},
   "share": {"_dropbox-cli": "_dropbox-cli","_dropbox-uploader": "_dropbox-uploader"}
 }
 
