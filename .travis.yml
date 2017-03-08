@@ -4,19 +4,22 @@ addons:
       zsh
 dist: trusty
 install:
-- mkdir .bin
-- curl -L https://raw.githubusercontent.com/molovo/revolver/master/revolver > .bin/revolver
-- curl -L https://raw.githubusercontent.com/molovo/color/master/color.zsh > .bin/color
-- curl -L https://github.com/molovo/zunit/releases/download/v0.6.3/zunit > .bin/zunit
-- chmod u+x .bin/{color,revolver,zunit}
-- export PATH="$PWD/.bin:$PATH"
-script: zunit
+  - npm install -g jsonlint
+  - mkdir .bin
+  - curl -L https://raw.githubusercontent.com/molovo/revolver/master/revolver > .bin/revolver
+  - curl -L https://raw.githubusercontent.com/molovo/color/master/color.zsh > .bin/color
+  - curl -L https://github.com/molovo/zunit/releases/download/v0.6.3/zunit > .bin/zunit
+  - chmod u+x .bin/{color,revolver,zunit}
+  - export PATH="$PWD/.bin:$PATH"
+script:
+  - for package in packages/*; do jsonlint $package; done
+  - zunit
 after_success:
-- git config --global user.email "hi@molovo.co"
-- git config --global user.name "James Dinsdale"
-- git remote rm origin
-- git remote add origin https://molovo:${GH_TOKEN}@github.com/zulu-zsh/index.git
-- if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then make publish; fi
+  - git config --global user.email "hi@molovo.co"
+  - git config --global user.name "James Dinsdale"
+  - git remote rm origin
+  - git remote add origin https://molovo:${GH_TOKEN}@github.com/zulu-zsh/index.git
+  - if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then make publish; fi
 env:
   global:
     secure: mVESbce+VicO31dTfjUJE/Fhc/CJoecaTcreum3vCeHNYZPe2QegOetzj+B1MpCLOnTSeRxq5XTMw1V/orlPfWs/X7brkCsW/tsBn+DagkGJ66/0RV1lXSlHafku6gS+WEVWYSUkv69v3v4aLWAigp/fWSbha8u9go+eYxah5rbo5dCY2cNEt5062IXowUBUdmr3JrOKHVrOQG8d3dDEBk/iVIe/3aDewjSN+7p73ps2qWr2OzuKNenf9AT8CRI1dkaxfLghqpB6XdQtscAmdPL4Ba9EnvYq1iibb+upiCp2DFCqdaQx2StiZcGgXT/Un6fm5g2317lCd6S17IbNij4/SoSwfx8V66jrDJDvARo5KcikH1FL+oEVi90KMap19fDXVWbJN3jpxC3QT+LvQUYr/g27Rt+0FvUU7pWOUFEPkY0+2d3SIsH2up+suBaCPDD6hJ9bN27eo0OpKe0C/JOMveCHLmWW3DwdJpSw7+/9tmAUAbJK9Ss/8Wedwpxfh2/utQPuJZQc84q9Dj5BIlGf32MCxp+0psSfbtkcJauvZ6pHW/eWPvFqMUPoWvTDWf/ivAks8AheayG8lum1k+htLNEpEsRRejpDQ6JkWyKKX1thnk+wd6PJs9HwIDkUJPcs9lqKdjbRZ2s+KEPzJRlm7OIU0M9vbZ0OpzN/OJA=
