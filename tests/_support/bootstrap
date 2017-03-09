@@ -43,6 +43,13 @@ for package in ${packages[@]}; do
   if [[ ! -f "$PWD/tests/packages/$package.zunit" ]]; then
     echo "#!/usr/bin/env zunit
 
+@test 'Lint $package json' {
+  run jsonlint -q packages/$package
+
+  assert "\$output" is_empty
+  assert \$state equals 0
+}
+
 @test 'Test $package installation' {
   run zulu install --no-autoselect-themes --ignore-dependencies $package
 

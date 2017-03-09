@@ -12,7 +12,6 @@ install:
   - chmod u+x .bin/{color,revolver,zunit}
   - export PATH="$PWD/.bin:$PATH"
 script:
-  - for package in packages/*; do jsonlint $package; done
   - zunit
 after_success:
   - git config --global user.email "hi@molovo.co"
