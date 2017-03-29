@@ -1,0 +1,9 @@
+{
+  "name": "zshbuild",
+  "description": "A helper tool for building large ZSH projects from source",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/zshbuild",
+  "type": "script",
+  "bin": {"zshbuild": "zshbuild"},
+  "share": {"zshbuild.zsh-completion": "_zshbuild"}
+}
