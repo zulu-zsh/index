@@ -1,0 +1,8 @@
+{
+  "name": "zulu-theme",
+  "description": "The default Zulu theme",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/zulu-zsh/theme",
+  "type": "theme",
+  "share": {"zulu.zsh-theme": "prompt_zulu-theme_setup"}
+}
