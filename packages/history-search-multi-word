@@ -1,0 +1,8 @@
+{
+  "name": "history-search-multi-word",
+  "description": "Multi-word, syntax highlighted history searching for Zsh",
+  "repository": "https://github.com/zdharma/history-search-multi-word",
+  "author": "Zdharma Initiative <http://zdharma.org>",
+  "type": "plugin",
+  "init": {"history-search-multi-word.plugin.zsh": "history-search-multi-word.plugin.zsh"}
+}
