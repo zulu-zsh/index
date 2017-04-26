@@ -4,5 +4,6 @@
   "repository": "https://github.com/zulu-zsh/plugin-fzf",
   "author": "James Dinsdale <https://molovo.co>",
   "type": "plugin",
+  "collision_warnings": {"history-search-multi-word": "The fzf and history-search-multi-word packages both define the same CTRL-R keybinding"},
   "init": {"fzf.zsh": "fzf"}
 }

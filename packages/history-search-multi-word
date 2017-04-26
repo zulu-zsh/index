@@ -4,5 +4,6 @@
   "repository": "https://github.com/zdharma/history-search-multi-word",
   "author": "Zdharma Initiative <http://zdharma.org>",
   "type": "plugin",
+  "collision_warnings": {"fzf": "The history-search-multi-word and fzf packages both define the same CTRL-R keybinding"},
   "init": {"history-search-multi-word.plugin.zsh": "history-search-multi-word.plugin.zsh"}
 }
