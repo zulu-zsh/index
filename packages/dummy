@@ -1,0 +1,9 @@
+{
+  "name": "dummy",
+  "description": "A dummy package used in Zulu's unit testing",
+  "type": "plugin",
+  "warning": ["This is a dummy package, and should not be installed"],
+  "share": {"_dummy_function": "_dummy_function"},
+  "init": {"dummy.plugin.zsh": "dummy.plugin.zsh"},
+  "bin": {"dummy": "dummy"}
+}
