@@ -1,6 +1,7 @@
 {
   "name": "dummy",
   "description": "A dummy package used in Zulu's unit testing",
+  "repository": "https://github.com/zulu-zsh/plugin-dummy",
   "type": "plugin",
   "warning": ["This is a dummy package, and should not be installed"],
   "share": {"_dummy_function": "_dummy_function"},
