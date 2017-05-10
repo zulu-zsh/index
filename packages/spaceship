@@ -1,0 +1,8 @@
+{
+  "name": "spaceship",
+  "description": "A ZSH theme for Astronauts",
+  "repository": "https://github.com/denysdovhan/spaceship-zsh-theme",
+  "author": "Denys Dovhan <http://www.denysdovhan.com>",
+  "type": "theme",
+  "share": {"spaceship.zsh": "prompt_spaceship_setup"}
+}
