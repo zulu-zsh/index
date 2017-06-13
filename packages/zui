@@ -1,0 +1,8 @@
+{
+  "name": "zui",
+  "description": "Zsh User Interface library",
+  "repository": "https://github.com/zdharma/zui",
+  "author": "Zdharma Initiative <http://zdharma.org>",
+  "type": "plugin",
+  "init": {"zui.plugin.zsh": "zui.plugin.zsh"}
+}

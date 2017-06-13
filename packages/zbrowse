@@ -1,0 +1,9 @@
+{
+  "name": "zbrowse",
+  "description": "Browse interactive variables and other structures of Zshell",
+  "repository": "https://github.com/zdharma/zbrowse",
+  "author": "Zdharma Initiative <http://zdharma.org>",
+  "type": "plugin",
+  "dependencies": ["zui"],
+  "init": {"zbrowse.plugin.zsh": "zbrowse.plugin.zsh"}
+}
