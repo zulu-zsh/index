@@ -1,0 +1,8 @@
+{
+  "name": "zulu-aliases",
+  "description": "A selection of aliases for zulu commands",
+  "repository": "https://github.com/zulu-zsh/plugin-zulu-aliases",
+  "author": "James Dinsdale <https://molovo.co>",
+  "type": "plugin",
+  "init": {"zulu-aliases.plugin.zsh": "zulu-aliases.plugin.zsh"}
+}
