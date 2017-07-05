@@ -1,0 +1,8 @@
+{
+  "name": "you-should-use",
+  "description": "ZSH plugin that reminds you to use existing aliases for commands you just typed",
+  "author": "Michael Aquilina <https://github.com/MichaelAquilina>",
+  "repository": "https://github.com/MichaelAquilina/zsh-you-should-use",
+  "type": "plugin",
+  "init": {"you-should-use.plugin.zsh": "you-should-use.plugin.zsh"}
+}
