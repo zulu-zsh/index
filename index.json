@@ -1,0 +1,708 @@
+[
+{
+  "name": "agnoster",
+  "description": "A ZSH prompt theme with powerlines",
+  "repository": "https://github.com/agnoster/agnoster-zsh-theme",
+  "author": "Isaac Wolkerstorfer <http://agnoster.net/>",
+  "type": "theme",
+  "share": {"agnoster.zsh-theme": "prompt_agnoster_setup"}
+}
+,
+{
+  "name": "alias-tips",
+  "description": "A plugin to help remembering those aliases you defined once",
+  "repository": "https://github.com/djui/alias-tips",
+  "author": "Uwe Dauernheim <http://djui.io>",
+  "type": "plugin",
+  "init": {"alias-tips.plugin.zsh": "alias-tips"}
+}
+,
+{
+  "name": "alien-minimal",
+  "description": "A minimal zsh theme",
+  "author": "Indrajit <https://eendroroy.github.io>",
+  "repository": "https://github.com/eendroroy/alien-minimal",
+  "type": "theme",
+  "share": {"alien-minimal.zsh": "prompt_alien-minimal_setup"}
+}
+,
+{
+  "name": "almostontop",
+  "description": "Clears previous command output every time before new command executed in shell",
+  "repository": "https://github.com/Valiev/almostontop",
+  "author": "Sergey Valiev <https://github.com/Valiev>",
+  "type": "plugin",
+  "init": {"almostontop.plugin.zsh": "almostontop"}
+}
+,
+{
+  "name": "ansiweather",
+  "description": "Weather in your terminal, with ANSI colors and Unicode symbols",
+  "repository": "https://github.com/fcambus/ansiweather",
+  "author": "Frederic Cambus <http://www.cambus.net>",
+  "type": "script",
+  "bin": {"ansiweather": "ansiweather"}
+}
+,
+{
+  "name": "archive",
+  "description": "Provides functions to list and extract archives.",
+  "repository": "https://github.com/zulu-zsh/plugin-archive",
+  "author": "Sorin Ionescu <https://github.com/sorin-ionescu>",
+  "type": "plugin",
+  "bin": {"functions/lsarchive": "lsarchive", "functions/unarchive": "unarchive"},
+  "share": {"functions/_lsarchive": "_lsarchive", "functions/_unarchive": "_unarchive"}
+}
+,
+{
+  "name": "async",
+  "description": "Because your terminal should be able to perform tasks asynchronously without external tools!",
+  "repository": "https://github.com/mafredri/zsh-async",
+  "type": "plugin",
+  "author": "Mathias Fredriksson <https://twitter.com/mafredri>",
+  "share": {"async.zsh": "async"}
+}
+,
+{
+  "name": "autopair",
+  "description": "A simple plugin that auto-closes, deletes and skips over matching delimiters in zsh intelligently.",
+  "repository": "https://github.com/hlissner/zsh-autopair",
+  "author": "Henrik Lissner <http://henrik.io>",
+  "type": "plugin",
+  "init": {"autopair.zsh": "autopair"}
+}
+,
+{
+  "name": "autosuggestions",
+  "description": "Fish-like autosuggestions for zsh",
+  "repository": "https://github.com/zsh-users/zsh-autosuggestions",
+  "author": "zsh-users <https://github.com/zsh-users",
+  "type": "plugin",
+  "init": {"zsh-autosuggestions.zsh": "zsh-autosuggestions.zsh"}
+}
+,
+{
+  "name": "cdbk",
+  "description": "A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want",
+  "repository": "https://github.com/MikeDacre/cdbk",
+  "author": "Mike Dacre <https://github.com/MikeDacre>",
+  "type": "plugin",
+  "init": {"cdbk.plugin.zsh": "cdbk"}
+}
+,
+{
+  "name": "color",
+  "description": "A small zsh script for colorising strings",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/color",
+  "type": "script",
+  "bin": {"color.zsh": "color"}
+}
+,
+{
+  "name": "command-not-found",
+  "description": "Displays installation information for not found commands by loading the command-not-found tool.",
+  "repository": "https://github.com/zulu-zsh/plugin-command-not-found",
+  "author": "Joseph Booker <https://github.com/sargas>",
+  "type": "plugin",
+  "init": {"command-not-found.zsh": "command-not-found.zsh"}
+}
+,
+{
+  "name": "completions",
+  "description": "Additional completion definitions for Zsh.",
+  "repository": "https://github.com/zsh-users/zsh-completions",
+  "author": "zsh-users <https://github.com/zsh-users>",
+  "type": "completion",
+  "share": {"src/*": "."}
+}
+,
+{
+  "name": "crash",
+  "description": "Proper error handling, exceptions and try/catch for ZSH",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/crash",
+  "type": "plugin",
+  "share": {"crash": "crash"}
+}
+,
+{
+  "name": "crystal",
+  "description": "Plugin for crystal",
+  "repository": "https://github.com/veelenga/crystal-zsh",
+  "author": "Vitalii Elenhaupt <http://veelenga.com>",
+  "type": "plugin",
+  "init": {"crystal.plugin.zsh": "crystal"}
+}
+,
+{
+  "name": "directory",
+  "description": "Sets directory options and defines directory aliases.",
+  "repository": "https://github.com/zulu-zsh/plugin-directory",
+  "author": "James Cox <https://github.com/imajes> Sorin Ionescu <https://github.com/sorin-ionescu>",
+  "type": "plugin",
+  "init": {"directory.zsh": "directory.zsh"}
+}
+,
+{
+  "name": "dnf",
+  "description": "Defines dnf aliases.",
+  "repository": "https://github.com/zulu-zsh/plugin-dnf",
+  "author": "Sorin Ionescu <https://github.com/sorin-ionescu>",
+  "type": "plugin",
+  "init": {"dnf.zsh": "dnf.zsh"}
+}
+,
+{
+  "name": "docker",
+  "description": "Aliases and functions for docker",
+  "author": "rolling-space <https://github.com/rolling-space",
+  "repository": "https://github.com/rolling-space/zulu-docker.git",
+  "type": "plugin",
+  "init": {"init.zsh": "zulu-docker"}
+}
+,
+{
+  "name": "done",
+  "description": "Sends a notification when a long running command completes",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/done",
+  "type": "plugin",
+  "init": {"done.zsh": "done.zsh"}
+}
+,
+{
+  "name": "dpkg",
+  "description": "Defines dpkg aliases.",
+  "repository": "https://github.com/zulu-zsh/plugin-dpkg",
+  "author": "Daniel Bolton <https://github.com/dbb> Benjamin Boudreau <https://github.com/dreur> Sorin Ionescu <https://github.com/sorin-ionescu>",
+  "type": "plugin",
+  "init": {"dpkg.zsh": "dpkg.zsh"},
+  "bin": {"functions/deb-clone": "deb-clone", "functions/deb-history": "deb-history", "functions/deb-kbuild": "deb-kbuild"}
+}
+,
+{
+  "name": "dummy",
+  "description": "A dummy package used in Zulu's unit testing",
+  "repository": "https://github.com/zulu-zsh/plugin-dummy",
+  "type": "plugin",
+  "warning": ["This is a dummy package, and should not be installed"],
+  "share": {"_dummy_function": "_dummy_function"},
+  "init": {"dummy.plugin.zsh": "dummy.plugin.zsh"},
+  "bin": {"dummy": "dummy"}
+}
+,
+{
+  "name": "dwim",
+  "description": "A ZSH plugin that attempts to predict what you will want to do next.",
+  "repository": "https://github.com/oknowton/zsh-dwim",
+  "author": "Pat Regan <http://blog.patshead.com>",
+  "type": "plugin",
+  "init": {"init.zsh": "zsh-dwim"}
+}
+,
+{
+  "name": "enhancd",
+  "description": "A next-generation cd command with an interactive filter",
+  "repository": "https://github.com/b4b4r07/enhancd",
+  "author": "BABAROT <b4b4r07@gmail.com>",
+  "type": "script",
+  "init": {"init.sh": "enhancd"}
+}
+,
+{
+  "name": "fasd",
+  "description": "Command-line productivity booster, offers quick access to files and directories.",
+  "repository": "https://github.com/clvv/fasd",
+  "author": "Wei Dai <http://wdai.us/>",
+  "type": "script",
+  "bin": {"fasd": "fasd"}
+}
+,
+{
+  "name": "fast-syntax-highlighting",
+  "description": "Optimized and extended zsh-syntax-highlighting",
+  "repository": "https://github.com/zdharma/fast-syntax-highlighting",
+  "author": "Zdharma Initiative <http://zdharma.org>",
+  "type": "plugin",
+  "init": {"fast-syntax-highlighting.plugin.zsh": "fast-syntax-highlighting.plugin.zsh"}
+}
+,
+{
+  "name": "filthy",
+  "description": "A disgustingly clean ZSH prompt theme",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/filthy",
+  "type": "theme",
+  "share": {"filthy.zsh": "prompt_filthy_setup"}
+}
+,
+{
+  "name": "fzf",
+  "description": "A plugin which sets up keybindings for fzf",
+  "repository": "https://github.com/zulu-zsh/plugin-fzf",
+  "author": "James Dinsdale <https://molovo.co>",
+  "type": "plugin",
+  "collision_warnings": {"history-search-multi-word": "The fzf and history-search-multi-word packages both define the same CTRL-R keybinding"},
+  "init": {"fzf.zsh": "fzf"}
+}
+,
+{
+  "name": "fzf-git",
+  "description": "A plugin which sets up git keybindings for fzf",
+  "repository": "https://github.com/zulu-zsh/plugin-fzf-git",
+  "author": "James Dinsdale <https://molovo.co>",
+  "type": "plugin",
+  "init": {"fzf-git.plugin.zsh": "fzf-git"}
+}
+,
+{
+  "name": "fzf-marks",
+  "description": "Little script to create, navigate and delete bookmarks in Bash and Zsh, using the fuzzy finder fzf",
+  "repository": "https://github.com/urbainvaes/fzf-marks",
+  "author": "Urbain Vaes <http://urbainvaes.com/git>",
+  "type": "plugin",
+  "init": {"fzf-marks.plugin.zsh": "fzf-marks"}
+}
+,
+{
+  "name": "fzf-z",
+  "description": "Plugin for zsh to integrate fzf and zsh's z plugin - enables easy switching between recent dirs in zsh",
+  "repository": "https://github.com/andrewferrier/fzf-z",
+  "author": "Andrew Ferrier <https://github.com/andrewferrier>",
+  "type": "plugin",
+  "init": {"fzf-z.plugin.zsh": "fzf-z"}
+}
+,
+{
+  "name": "git",
+  "description": "A selection of handy git aliases",
+  "repository": "https://github.com/zulu-zsh/plugin-git",
+  "author": "James Dinsdale <https://molovo.co>",
+  "type": "plugin",
+  "init": {"git.zsh": "git.zsh"},
+  "bin": {"functions/git-branch-current": "git-branch-current", "functions/git-commit-lost": "git-commit-lost", "functions/git-dir": "git-dir", "functions/git-ignore-add": "git-ignore-add", "functions/git-root": "git-root", "functions/git-stash-clear-interactive": "git-stash-clear-interactive", "functions/git-stash-dropped": "git-stash-dropped", "functions/git-stash-recover": "git-stash-recover", "functions/git-submodule-move": "git-submodule-move", "functions/git-submodule-remove": "git-submodule-remove", "functions/git_current_branch": "git_current_branch", "functions/git_prompt_info": "git_prompt_info", "functions/is-true": "is-true", "functions/parse_git_dirty": "parse_git_dirty", "functions/git_prompt_status": "git_prompt_status"}
+}
+,
+{
+  "name": "gitignore",
+  "description": "ZSH plugin for creating .gitignore files",
+  "repository": "https://github.com/voronkovich/gitignore.plugin.zsh",
+  "author": "Oleg Voronkovich <http://popartdesign.ru>",
+  "type": "plugin",
+  "init": {"gitignore.plugin.zsh": "gitignore.plugin.zsh"}
+}
+,
+{
+  "name": "gitio",
+  "description": "A zsh plugin for generating a GitHub short URL using git.io",
+  "repository": "https://github.com/denysdovhan/gitio-zsh",
+  "author": "Denys Dovhan <http://www.denysdovhan.com>",
+  "type": "plugin",
+  "init": {"gitio.zsh": "gitio"}
+}
+,
+{
+  "name": "gnu-utility",
+  "description": "Provides for the interactive use of GNU utilities on BSD systems.",
+  "repository": "https://github.com/zulu-zsh/plugin-gnu-utility",
+  "author": "Sorin Ionescu <https://github.com/sorin-ionescu>",
+  "type": "plugin",
+  "init": {"init.zsh": "gnu-utility.zsh"}
+}
+,
+{
+  "name": "history-search-multi-word",
+  "description": "Multi-word, syntax highlighted history searching for Zsh",
+  "repository": "https://github.com/zdharma/history-search-multi-word",
+  "author": "Zdharma Initiative <http://zdharma.org>",
+  "type": "plugin",
+  "collision_warnings": {"fzf": "The history-search-multi-word and fzf packages both define the same CTRL-R keybinding"},
+  "init": {"history-search-multi-word.plugin.zsh": "history-search-multi-word.plugin.zsh"}
+}
+,
+{
+  "name": "history-substring-search",
+  "description": "ZSH port of Fish shell's history search feature.",
+  "repository": "https://github.com/zsh-users/zsh-history-substring-search",
+  "author": "ZSH Users <https://github.com/zsh-users>",
+  "type": "plugin",
+  "init": {"zsh-history-substring-search.zsh": "zsh-history-substring-search.zsh"}
+}
+,
+{
+  "name": "history-sync",
+  "description": "plugin for synced zsh_history; with encryption",
+  "repository": "https://github.com/wulfgarpro/history-sync",
+  "author": "James Fraser <http://wulfgarpro.github.io/>",
+  "type": "plugin",
+  "init": {"history-sync.plugin.zsh": "history-sync"}
+}
+,
+{
+  "name": "homebrew",
+  "description": "Aliases and functions for homebrew",
+  "author": "rolling-space <https://github.com/rolling-space",
+  "repository": "https://github.com/rolling-space/zulu-homebrew.git",
+  "type": "plugin",
+  "init": {"init.zsh": "zulu-homebrew"}
+}
+,
+{
+  "name": "insert-sudo",
+  "description": "A little zsh snippet to prepend sudo to the current command",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/insert-sudo",
+  "type": "plugin",
+  "init": {"insert-sudo.zsh": "insert-sudo"}
+}
+,
+{
+  "name": "k",
+  "description": "k is the new l, yo",
+  "repository": "https://github.com/supercrabtree/k",
+  "author": "George Cravtree",
+  "type": "script",
+  "init": {"k.sh": "k"}
+}
+,
+{
+  "name": "load-graph",
+  "description": "Outputs the current 1-minute load average as a percentage, and a spark line graph of the 1, 5 and 15 minute averages.",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/load-graph",
+  "type": "script",
+  "bin": {"load-graph": "load-graph"}
+}
+,
+{
+  "name": "lumberjack",
+  "description": "A logging interface for shell scripts",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/lumberjack",
+  "type": "script",
+  "bin": {"lj": "lj"},
+  "share": {"lj.zsh-completion": "_lj"}
+}
+,
+{
+  "name": "node",
+  "description": "Aliases and functions for node",
+  "author": "rolling-space <https://github.com/rolling-space",
+  "repository": "https://github.com/rolling-space/zulu-node.git",
+  "type": "plugin",
+  "bin": {"functions/node-info": "node-info"},
+  "init": {"init.zsh": "zulu-node"}
+}
+,
+{
+  "name": "nvm-auto-use",
+  "description": "ZSH plugin to call `nvm use` automatically when you enter a directory that contains an `.nvmrc` file",
+  "repository": "https://github.com/tomsquest/nvm-auto-use.zsh",
+  "author": "Thomas Queste <http://www.tomsquest.com>",
+  "type": "plugin",
+  "init": {"nvm-auto-use.zsh": "nvm-auto-use"}
+}
+,
+{
+  "name": "osx",
+  "description": "macOS related functions",
+  "author": "rolling-space <https://github.com/rolling-space",
+  "repository": "https://github.com/rolling-space/zulu-osx.git",
+  "type": "plugin",
+  "init": {"osx.plugin.zsh": "zulu-osx"}
+}
+,
+{
+  "name": "powerlevel9k",
+  "description": "The most awesome Powerline theme for ZSH around!",
+  "author": "Ben Hilburn <https://github.com/bhilburn>",
+  "repository": "https://github.com/bhilburn/powerlevel9k",
+  "type": "theme",
+  "share": {"powerlevel9k.zsh-theme": "prompt_powerlevel9k_setup"}
+}
+,
+{
+  "name": "pretty-time",
+  "description": "Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s",
+  "repository": "https://github.com/sindresorhus/pretty-time-zsh",
+  "author": "Sindre Sorhus <https://twitter.com/sindresorhus>",
+  "type": "script",
+  "bin": {"pretty-time.zsh": "pretty-time"}
+}
+,
+{
+  "name": "pure",
+  "description": "Pretty, minimal and fast ZSH prompt",
+  "author": "Sindre Sorhus <https://github.com/sindresorhus>",
+  "repository": "https://github.com/sindresorhus/pure",
+  "type": "theme",
+  "dependencies": ["async"],
+  "share": {"pure.zsh": "prompt_pure_setup"}
+}
+,
+{
+  "name": "rbenv",
+  "description": "ruby/rails/rbenv aliases",
+  "author": "rolling-space <https://github.com/rolling-space",
+  "repository": "https://github.com/rolling-space/zulu-rbenv.git",
+  "type": "plugin",
+  "init": {"rbenv.plugin.zsh": "zulu-rbenv"}
+}
+,
+{
+  "name": "revolver",
+  "description": "A progress spinner for shell scripts",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/revolver",
+  "type": "script",
+  "bin": {"revolver": "revolver"},
+  "share": {"revolver.zsh-completion": "_revolver"}
+}
+,
+{
+  "name": "safe-paste",
+  "description": "Zsh safe-paste plugin for antigen. See http://cirw.in/blog/bracketed-paste",
+  "repository": "https://github.com/oz/safe-paste",
+  "author": "Arnaud Berthomier <https://github.com/oz>",
+  "type": "plugin",
+  "init": {"safe-paste.plugin.zsh": "safe-paste"}
+}
+,
+{
+  "name": "snoopy",
+  "description": "A Zsh theme inspired by ZiM framework's `eriner` theme",
+  "author": "Petros <https://github.com/rolling-space>",
+  "repository": "https://github.com/rolling-space/snoopy-theme",
+  "type": "theme",
+  "share": {"snoopy.zsh-theme": "prompt_snoopy_setup"},
+  "init": {"zshrc.sh": "snoopy.zsh"}
+}
+,
+{
+  "name": "solarized-man",
+  "description": "A modified version of oh-my-zsh's plugin colored-man-pages, optimized for solarized dark theme in terminal",
+  "repository": "https://github.com/zlsun/solarized-man",
+  "author": "zlsun",
+  "type": "script",
+  "init": {"solarized-man.plugin.zsh": "solarized-man"}
+}
+,
+{
+  "name": "spaceship",
+  "description": "A ZSH theme for Astronauts",
+  "repository": "https://github.com/denysdovhan/spaceship-zsh-theme",
+  "author": "Denys Dovhan <http://www.denysdovhan.com>",
+  "type": "theme",
+  "share": {"spaceship.zsh": "prompt_spaceship_setup"}
+}
+,
+{
+  "name": "syntax-highlighting",
+  "description": "Fish shell like syntax highlighting for Zsh",
+  "repository": "https://github.com/zsh-users/zsh-syntax-highlighting",
+  "author": "zsh-users <https://github.com/zsh-users",
+  "type": "plugin",
+  "init": {"zsh-syntax-highlighting.zsh": "zsh-syntax-highlighting.zsh"}
+}
+,
+{
+  "name": "tipz",
+  "description": "A small ZSH plugin to help you remember your aliases",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/tipz",
+  "type": "plugin",
+  "init": {"tipz.zsh": "tipz"}
+}
+,
+{
+  "name": "titles",
+  "description": "Terminal/tmux titles based on current location and task",
+  "repository": "https://github.com/jreese/zsh-titles",
+  "author": "John Reese <https://noswap.com>",
+  "type": "plugin",
+  "init": {"titles.plugin.zsh": "titles"}
+}
+,
+{
+  "name": "transfer",
+  "description": "A simple script to upload files to transfer.sh",
+  "author": "Remco Verhoef <https://transfer.sh>",
+  "repository": "https://github.com/zulu-zsh/plugin-transfer",
+  "type": "script",
+  "bin": {"transfer": "transfer"}
+}
+,
+{
+  "name": "utility",
+  "description": "Helper functions and aliases",
+  "author": "rolling-space <https://github.com/rolling-space",
+  "repository": "https://github.com/rolling-space/zulu-utility.git",
+  "type": "plugin",
+  "init": {"init.zsh": "zulu-utility"}
+}
+,
+{
+  "name": "warhol",
+  "description": "Colorize command output using grc and lscolors.",
+  "repository": "https://github.com/unixorn/warhol.plugin.zsh",
+  "author": "Joe Block <https://github.com/unixorn>",
+  "type": "plugin",
+  "init": {"warhol.plugin.zsh": "warhol"}
+}
+,
+{
+  "name": "you-should-use",
+  "description": "ZSH plugin that reminds you to use existing aliases for commands you just typed",
+  "author": "Michael Aquilina <https://github.com/MichaelAquilina>",
+  "repository": "https://github.com/MichaelAquilina/zsh-you-should-use",
+  "type": "plugin",
+  "init": {"you-should-use.plugin.zsh": "you-should-use.plugin.zsh"}
+}
+,
+{
+  "name": "z",
+  "description": "Tracks your most used directories, based on 'frecency'.",
+  "repository": "https://github.com/rupa/z",
+  "author": "rupa <http://un.ix.io>",
+  "type": "script",
+  "init": {"z.sh": "z"}
+}
+,
+{
+  "name": "zbrowse",
+  "description": "Browse interactive variables and other structures of Zshell",
+  "repository": "https://github.com/zdharma/zbrowse",
+  "author": "Zdharma Initiative <http://zdharma.org>",
+  "type": "plugin",
+  "dependencies": ["zui"],
+  "init": {"zbrowse.plugin.zsh": "zbrowse.plugin.zsh"}
+}
+,
+{
+  "name": "z-cd",
+  "description": "A wrapper around the cd builtin which searches directory history using z",
+  "repository": "https://github.com/zulu-zsh/plugin-z-cd",
+  "author": "James Dinsdale <hi@molovo.co>",
+  "type": "script",
+  "init": {"z-cd.zsh": "z-cd"}
+}
+,
+{
+  "name": "zsh-bd",
+  "description": "Quickly go back to a specific parent directory instead of typing cd ../../.. redundantly",
+  "repository": "https://github.com/Tarrasch/zsh-bd",
+  "author": "Arash Rouhani",
+  "type": "script",
+  "init": {"bd.zsh": "bd"}
+}
+,
+{
+  "name": "zshbuild",
+  "description": "A helper tool for building large ZSH projects from source",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/zshbuild",
+  "type": "script",
+  "bin": {"zshbuild": "zshbuild"},
+  "share": {"zshbuild.zsh-completion": "_zshbuild"}
+}
+,
+{
+  "name": "zsh-dropbox",
+  "description": "This plugin provides 2 apps: dropbox-cli and dropbox-uploader and completions for them.",
+  "repository": "https://github.com/zpm-zsh/zsh-dropbox",
+  "author": "Grigorii Horos",
+  "init": {"dropbox.plugin.zsh": "zsh-dropbox"},
+  "bin": {"bin/dropbox-cli": "dropbox-cli","bin/dropbox_uploader": "dropbox_uploader"},
+  "share": {"_dropbox-cli": "_dropbox-cli","_dropbox-uploader": "_dropbox-uploader"}
+}
+
+,
+{
+  "name": "zsh-editing-workbench",
+  "description": "Incremental history word completion",
+  "repository": "https://github.com/psprint/zsh-editing-workbench",
+  "author": "PSPrint",
+  "type": "plugin",
+  "init": {"zsh-editing-workbench.plugin.zsh": "zsh-editing-workbench"}
+}
+,
+{
+  "name": "zsh-hints",
+  "description": "Easily display non-completable trivia right under your editing buffer",
+  "repository": "https://github.com/joepvd/zsh-hints",
+  "author": "Joep van Delft <http://joepvd.github.io>",
+  "type": "plugin",
+  "share": {"zsh-hints": "zsh-hints"}
+}
+,
+{
+  "name": "zsh-hints-integration",
+  "description": "Integration which sets up key bindings for the zsh-hints plugin",
+  "repository": "https://github.com/zulu-zsh/plugin-zsh-hints",
+  "author": "James Dinsdale <https://molovo.co>",
+  "dependencies": ["zsh-hints"],
+  "type": "plugin",
+  "init": {"zsh-hints-integration.plugin.zsh": "zsh-hints-integration"}
+}
+,
+{
+  "name": "zsh-hooks",
+  "description": "Add zsh's missing hooks, and support for user-defined hooks",
+  "repository": "https://github.com/willghatch/zsh-hooks",
+  "author": "William G Hatch <http://willghatch.net>",
+  "type": "plugin",
+  "init": {"zsh-hooks.plugin.zsh": "zsh-hooks"}
+}
+,
+{
+  "name": "zui",
+  "description": "Zsh User Interface library",
+  "repository": "https://github.com/zdharma/zui",
+  "author": "Zdharma Initiative <http://zdharma.org>",
+  "type": "plugin",
+  "init": {"zui.plugin.zsh": "zui.plugin.zsh"}
+}
+,
+{
+  "name": "zulu-aliases",
+  "description": "A selection of aliases for zulu commands",
+  "repository": "https://github.com/zulu-zsh/plugin-zulu-aliases",
+  "author": "James Dinsdale <https://molovo.co>",
+  "type": "plugin",
+  "init": {"zulu-aliases.plugin.zsh": "zulu-aliases.plugin.zsh"}
+}
+,
+{
+  "name": "zulu-theme",
+  "description": "The default Zulu theme",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/zulu-zsh/theme",
+  "type": "theme",
+  "share": {"zulu.zsh-theme": "prompt_zulu-theme_setup"}
+}
+,
+{
+  "name": "zunit",
+  "description": "A unit testing framework for ZSH",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/zunit-zsh/zunit",
+  "type": "script",
+  "bin": {"zunit": "zunit"},
+  "share": {"zunit.zsh-completion": "_zunit"},
+  "dependencies": ["color", "revolver"],
+  "post_install": "./build.zsh"
+}
+,
+{
+  "name": "zvm",
+  "description": "The ZSH version manager",
+  "author": "James Dinsdale <https://github.com/molovo>",
+  "repository": "https://github.com/molovo/zvm",
+  "type": "script",
+  "bin": {"zvm": "zvm"},
+  "init": {"zvm-shell-integration.zsh": "zvm-shell-integration.zsh"},
+  "share": {"zvm.zsh-completion": "_zvm"},
+  "dependencies": ["color", "revolver"]
+}
+]
