@@ -1,0 +1,8 @@
+{
+  "name": "minimal",
+  "description": "A minimal ZSH theme",
+  "author": "subnixr <https://github.com/subnixr>",
+  "repository": "https://github.com/subnixr/minimal",
+  "type": "theme",
+  "share": {"minimal.zsh": "prompt_minimal_setup"}
+}
