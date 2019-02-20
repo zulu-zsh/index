@@ -1,24 +1,27 @@
 addons:
   apt:
-    packages:
-      zsh
+    packages: zsh
 dist: trusty
 install:
-  - npm install -g jsonlint
-  - mkdir .bin
-  - curl -L https://raw.githubusercontent.com/molovo/revolver/master/revolver > .bin/revolver
-  - curl -L https://raw.githubusercontent.com/molovo/color/master/color.zsh > .bin/color
-  - curl -L https://github.com/molovo/zunit/releases/download/v0.6.3/zunit > .bin/zunit
-  - chmod u+x .bin/{color,revolver,zunit}
-  - export PATH="$PWD/.bin:$PATH"
+- npm install -g jsonlint
+- mkdir .bin
+- curl -L https://raw.githubusercontent.com/molovo/revolver/master/revolver > .bin/revolver
+- curl -L https://raw.githubusercontent.com/molovo/color/master/color.zsh > .bin/color
+- curl -L https://github.com/molovo/zunit/releases/download/v0.6.3/zunit > .bin/zunit
+- chmod u+x .bin/{color,revolver,zunit}
+- export PATH="$PWD/.bin:$PATH"
 script:
-  - zunit
+- zunit
 after_success:
-  - ./build.zsh
+- "./build.zsh"
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: "$GITHUB_TOKEN"
   local_dir: build
   on:
     branch: master
+notifications:
+  email: false
+  slack:
+    secure: eBjG8iJuUlnMUJ71yTSBbavGMOPSEpVbN35o0SEvzx4oT+12zhQYfZ0PPUafP/ArDLyQ1G29tTQ7MfMn7byD61PFoOOVZ91GuxJmu2KU2wKITDKlUnYRT8YeekMSUzSX/sdssEeFEosU8GwCjtJNzSRz9F+PQy55z4rYXizJnXewAa3GogSvVBMCJ8/Cr3ZyK+z92eqyBGW/bUHraviLcS/l8bxhNiygCpUTo9RuvZqffMYOa/N69RCYv8z17gWKMw7nLRHwH/H3KZGS1ZVwU46CvOviMmVvjZqewnhZRil/DFHUKOJXq/zqlT4clBdH25pgItdp2HaP+MbmCFL70Vcgad6Apb9gorqMAWDCcHlUfcTLE1Vd32WCmysIs8QIxfl+lMTLcY+154CILyeccEW9l9Zlj6SkcGtA8ZHkqng6wZ0341rpaN6ejm5x+D+iIPZv1dcWXDmUAZQlMSLwmKdE4d2hO/3hGMxDvqgyrvI8i2zLyKUcFltSP91eUnqkenf489bXIc7/XpnopnJgMmxJEDd1lE6lAqPmxBNWFWPW4D5+a4lD2vfsCZ4GlDhyhLj42jcAcOtNIJPVhzziesDCs1KohGCVhg7levtarapI+9vSZeHUKPTIS+0jW74dtlNwgoWXVGmCYsc0H+pinKzkqT6kqoGvX7A6xw6cuBM=
