@@ -1,0 +1,8 @@
+{
+  "name": "powerlevel10k",
+  "description": "The most awesome Powerline theme for ZSH around!",
+  "author": "Ben Hilburn <https://github.com/romkatv>",
+  "repository": "https://github.com/romkatv/powerlevel10k",
+  "type": "theme",
+  "share": {"powerlevel10k.zsh-theme": "prompt_powerlevel10k_setup"}
+}
