@@ -1,0 +1,8 @@
+{
+  "name": "af-magic",
+  "description": "A ZSH prompt theme af-magic",
+  "repository": "https://github.com/andyfleming/oh-my-zsh",
+  "author": "Andy Fleming <http://andyfleming.com/>",
+  "type": "theme",
+  "share": {"themes/af-magic.zsh-theme": "prompt_af-magic_setup"}
+}
