@@ -1,0 +1,8 @@
+{
+  "name": "vi-mode",
+  "description": "ZSH plugin to set up some handy features for vi-mode (including Tmux integration)",
+  "repository": "https://github.com/zulu-zsh/plugin-vi-mode",
+  "author": "James Dinsdale <https://molovo.co>",
+  "type": "plugin",
+  "init": {"vi-mode.zsh": "vi-mode"}
+}
