@@ -1,0 +1,8 @@
+{
+  "name": "n",
+  "description": "ZSH plugin to call `n auto` automatically when you enter a directory",
+  "repository": "https://github.com/zulu-zsh/plugin-n",
+  "author": "James Dinsdale <https://molovo.co>",
+  "type": "plugin",
+  "init": {"n.zsh": "n"}
+}
