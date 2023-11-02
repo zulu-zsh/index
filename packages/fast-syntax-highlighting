@@ -1,7 +1,7 @@
 {
   "name": "fast-syntax-highlighting",
   "description": "Optimized and extended zsh-syntax-highlighting",
-  "repository": "https://github.com/zdharma/fast-syntax-highlighting",
+  "repository": "https://github.com/zdharma-continuum/fast-syntax-highlighting",
   "author": "Zdharma Initiative <http://zdharma.org>",
   "type": "plugin",
   "init": {"fast-syntax-highlighting.plugin.zsh": "fast-syntax-highlighting.plugin.zsh"}
